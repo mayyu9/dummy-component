@@ -1,0 +1,13 @@
+export const LOAD_DUMMY_COMPONENT_APPLICATION = 'LOAD_DUMMY_COMPONENT_APPLICATION';
+export const LOAD_DUMMY_COMPONENT_APPLICATION_SUCCEEDED = 'LOAD_DUMMY_COMPONENT_APPLICATION_SUCCEEDED';
+export const LOAD_DUMMY_COMPONENT_APPLICATION_FAILED = 'LOAD_DUMMY_COMPONENT_APPLICATION_FAILED';
+
+export function loadDummyComponentApplication(service, patientId) {
+  return {
+    type: LOAD_DUMMY_COMPONENT_APPLICATION,
+    data: {
+      service,
+      patientId,
+    },
+  };
+}

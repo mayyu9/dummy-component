@@ -1,0 +1,5 @@
+{
+  "dummy-component-engine.dummy-component-application": "Success.",
+  "dummy-component-engine.dummy-component-application-failed-to-load": "Error! Failed to load.",
+  "dummy-component-engine.no-dummy-component-application": "Not available."
+}
